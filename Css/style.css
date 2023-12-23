@@ -11,14 +11,14 @@ body
   justify-content: center;
   gap: 20px;
   height: 100vh;
-  font-size: 0.73rem;
+  font-size: 0.75rem;
   font-family: 'Barlow Semi Condensed', sans-serif;
   
 }
 
 .card 
 {
-  width: 475px;
+  width: 490px;
   background-color: hsl(263, 55%, 52%);
   padding: 1.5% 3%;
   border-radius: 8px;
@@ -26,7 +26,7 @@ body
 
 .card-one
 {
-  width: 200px;
+  width: 210px;
   background-color: hsl(217, 19%, 35%);
   padding: 1.5% 3%;
   border-radius: 8px;
@@ -39,8 +39,8 @@ body
 
 .card-separation
 {
-  padding: 12%;
-  width: 165px;
+  padding: 13.5%;
+  width: 175px;
   
 }
 
@@ -59,10 +59,15 @@ body
 
 .card-body
 {
-  font-size: 0.7rem;
+  font-size:0.76rem;
   font-family: 'Barlow Semi Condensed', sans-serif;
   color: hsl(0, 0%, 100%);
   
+}
+
+.common-card-body
+{
+  font-size: 0.79rem;
 }
 
 .first-card-body
@@ -115,6 +120,8 @@ body
 .name-avatar
 {
   margin-bottom:-10px;
+  font-size: 0.99rem;
+  font-family: 'Barlow Semi Condensed', sans-serif;
 }
 
 .name-one
@@ -172,6 +179,11 @@ body
 {
   color: hsl(210, 46%, 95%);
   opacity: 70%;
+}
+
+.commmon-footer-text
+{
+  font-size: 0.77rem;
 }
 
 @media(max-width:1030px){
